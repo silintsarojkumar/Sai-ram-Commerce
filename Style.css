@@ -1,0 +1,256 @@
+body{
+    padding: 0;
+    margin: 0;
+    
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    background-color: orange;
+    padding: 0%;
+    margin: 0;
+    font-size: 20px;
+    
+    
+}
+.headDetail{
+    
+   display: inline-flex;
+   flex-direction: row;
+   justify-content: space-between;
+   width: 40%;
+   align-items: center;
+   
+   
+    
+}
+.headDetail a{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+#home{
+    background-image: url(https://scontent.fatq2-1.fna.fbcdn.net/v/t1.6435-9/170377216_3591664087725305_5650440363769503095_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0GAPMcdVUb0Q7kNvgEQkmqj&_nc_zt=23&_nc_ht=scontent.fatq2-1.fna&_nc_gid=ApFrjDajANc34uYREFrRGzZ&oh=00_AYCvRa62Uq3JfeRoQHxSF8cjt0mHU5nzitLm22KrTydz5g&oe=675238A8);
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+   
+
+}
+#home h2{
+   color: black;
+   font-size: 40px;
+    margin: 0;
+    padding: 30px;
+    padding-left: 60px;
+    
+}
+#home h1{
+    color: black;
+    font-size: 80px;
+    margin: 5px;
+    padding-left: 90px;
+    
+ }
+ #home img{
+    border-top-left-radius: 50px;
+    width: 70%;
+    height: 65%;
+    margin-left: 400px;
+   
+
+}
+#Class{
+    background-color: yellow;
+    height: 90vh;
+    
+    
+
+} 
+#Class h1{
+    margin: 0;
+    font-size: 60px;
+    color: black;
+    padding-left: 20px;
+}
+#Class .img{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+#Class .img img{
+    border: 3px solid black;
+    height: 70%;
+    width: 45%;
+    border-top-left-radius: 30px;
+    
+}
+#poster{
+    height: 110vh;
+    background-image: url(https://scontent.fatq2-1.fna.fbcdn.net/v/t39.30808-6/419676590_3080880542045779_3026067018453377880_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=833d8c&_nc_ohc=lJ8LtpIWBV0Q7kNvgGpEkh8&_nc_zt=23&_nc_ht=scontent.fatq2-1.fna&_nc_gid=AO2vQiptkhhugMiIM3jX51N&oh=00_AYABUyIZMmYE0QWP0jGzKWS-Hh-5h0ofZmTMOBwIOg6SoQ&oe=67307C9C);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#Contact{
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+
+}
+#Contact div p{
+    font-size: 20px;
+    margin-left: 9%;
+    
+
+}
+#Contact img{
+    height: 80%;
+
+}
+#online{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    background-color: yellow;
+    
+}
+#video{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+#online h1{
+    font-size: 60px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    background: #2626263d;
+    font-weight: 300;
+    
+
+}
+.copyright i{
+    color: red;
+}
+@media (max-width:900px){
+    
+    .head{
+        width: 100%;
+        
+        
+    }
+    
+    .headDetail a{
+        cursor: pointer;
+    }
+    #home{
+        background-image: url(https://scontent.fatq2-1.fna.fbcdn.net/v/t1.6435-9/170377216_3591664087725305_5650440363769503095_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0GAPMcdVUb0Q7kNvgEQkmqj&_nc_zt=23&_nc_ht=scontent.fatq2-1.fna&_nc_gid=ApFrjDajANc34uYREFrRGzZ&oh=00_AYCvRa62Uq3JfeRoQHxSF8cjt0mHU5nzitLm22KrTydz5g&oe=675238A8);
+        height: 90vh;
+        background-position-x: 40%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+       
+    
+    }
+    #home h2{
+       color:black;
+       font-size: 40px;
+        margin: 0;
+        padding: 30px;
+        padding-left: 60px;
+        
+    }
+    #home h1{
+        color: black;
+        font-size: 60px;
+        margin: 5px;
+        padding-left: 10px;
+        
+     }
+     
+    
+    #Class h1{
+        margin: 0;
+        font-size: 30px;
+        
+    }
+    #Class .img{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #Class .img img{
+        border: 3px solid black;
+        height: 70%;
+        width: 85%;
+        margin-top: 20px;
+        border-top-left-radius: 30px;
+        
+    }
+    #poster{
+       display: none;
+    }
+    #Contact{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
+    }
+    #Contact iframe{
+        width: 100%;
+    }
+    #Contact div p{
+        font-size: 20px;
+        margin-left: 9%;
+        
+    
+    }
+    #Contact img{
+        height: 80%;
+    
+    }
+    #online{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        
+        justify-content: space-around;
+        
+    }
+    #video{
+        
+        display: flex;
+        flex-direction: column;
+        
+        
+        
+        
+    }
+    iframe{
+        width: 300px;
+
+        padding-top: 30px;
+    }
+    #online h1{
+        font-size: 40px;
+    }
+    .copyright{
+        font-size: 14px;
+    }
+
+}
+
+
