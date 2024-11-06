@@ -14,7 +14,8 @@ body{
     
 }
 .head h6{
-    margin: 0;;
+    margin: 0;
+    margin-bottom: 3px;
 }
 .head h4{
     margin-bottom: 0;;
@@ -23,7 +24,7 @@ body{
     
    display: inline-flex;
    flex-direction: row;
-   justify-content: space-between;
+   justify-content: space-around;
    width: 40%;
    align-items: center;
    
@@ -34,6 +35,8 @@ body{
     cursor: pointer;
     text-decoration: none;
     color: black;
+    margin: 0;
+    padding: 0;
 }
 #home{
     background-image: url(https://scontent.fatq2-1.fna.fbcdn.net/v/t1.6435-9/170377216_3591664087725305_5650440363769503095_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0GAPMcdVUb0Q7kNvgEQkmqj&_nc_zt=23&_nc_ht=scontent.fatq2-1.fna&_nc_gid=ApFrjDajANc34uYREFrRGzZ&oh=00_AYCvRa62Uq3JfeRoQHxSF8cjt0mHU5nzitLm22KrTydz5g&oe=675238A8);
@@ -151,12 +154,14 @@ body{
     
     .head{
         width: 100%;
+        font-size: 12px;
         
         
     }
     
     .headDetail a{
         cursor: pointer;
+        font-size: 12px;
     }
     #home{
         background-image: url(https://scontent.fatq2-1.fna.fbcdn.net/v/t1.6435-9/170377216_3591664087725305_5650440363769503095_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=0GAPMcdVUb0Q7kNvgEQkmqj&_nc_zt=23&_nc_ht=scontent.fatq2-1.fna&_nc_gid=ApFrjDajANc34uYREFrRGzZ&oh=00_AYCvRa62Uq3JfeRoQHxSF8cjt0mHU5nzitLm22KrTydz5g&oe=675238A8);
@@ -183,6 +188,7 @@ body{
         padding-left: 10px;
         
      }
+    
      
     
     #Class h1{
