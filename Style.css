@@ -13,6 +13,12 @@ body{
     
     
 }
+.head h6{
+    margin: 0;;
+}
+.head h4{
+    margin-bottom: 0;;
+}
 .headDetail{
     
    display: inline-flex;
